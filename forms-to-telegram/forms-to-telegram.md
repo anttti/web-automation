@@ -2,6 +2,12 @@
 
 [Google Forms](https://www.google.com/forms/about/) is a great, free multipurpose tool for all kinds of information gathering. Wouldn't it be cool to get a push notification on your phone when someone answers to your form? Turns out with a little help from Zapier and Telegram, we can do just that - all without a single line of code!
 
+We'll be tacking the task with:
+
+- Making Google Forms write it's responses to Google Sheets
+- Having Zapier react every time a new line is added to the sheet
+- Using a Telegram bot to send us a message whenever Zapier tells it to (which is whenever there is new data on the sheet).
+
 ## Creating a Google Form
 
 First of all we need a Google Form to draw the data from. For this article I created a form based on Google's examples; I used the "T-Shirt Sign Up" template.
